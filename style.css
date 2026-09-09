@@ -1,0 +1,29 @@
+body {
+    font-family: "special elite";
+}
+
+.horrible-text {
+    color: blue;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: left;
+    width: 30rem;
+    height: 30rem;
+    overflow: scroll;
+    padding: 8px 16px;
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 4px;
+    margin: 32px;
+    font-family: "special elite";
+}
+.horrible-text:hover {
+    cursor: pointer;
+    background-color: purple;
+    font-family: "comic sans ms";
+}
+.horrible-text:active {
+    cursor: pointer;
+    background-color: yellowgreen;
+}
