@@ -1,29 +1,100 @@
 body {
-    font-family: "special elite";
+    font-family: "open sans";
+    background-color: black;
 }
 
-.horrible-text {
-    color: blue;
-    background-color: yellow;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    color:white;
+    background-color:black;
     font-size: 20px;
-    text-align: left;
-    width: 30rem;
-    height: 30rem;
+    text-align: center;
     overflow: scroll;
-    padding: 8px 16px;
-    border: 1px;
+    padding: 0px 0px;
+    border: 0px;
     border-style: solid;
-    border-color: green;
-    border-radius: 4px;
-    margin: 32px;
-    font-family: "special elite";
+    border-color: ;
+    border-radius: 0px;
+    margin: 0px;
+    font-family: "open sans";
 }
-.horrible-text:hover {
+
+.navbar:hover {
+    color:#BCAF00;
     cursor: pointer;
-    background-color: purple;
-    font-family: "comic sans ms";
 }
-.horrible-text:active {
+
+.motto {
+    color: white;
+    background-color: black;
+    font-size: 80px;
+}
+
+.calltoaction {
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    width: 20rem;
+    height: 8rem;
+    text-align: center;
+    border: 5px;
+    border-style:solid;
+    border-color: white;
+    border-radius: 20rem;
+    padding: 0rem;
+    margin: 4rem;
+}
+.calltoaction:hover {
     cursor: pointer;
-    background-color: yellowgreen;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.blurb {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    width: 50%;
+
+}
+.blurbtitle {
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+
+.quote {
+    color: white;
+    background-color: black;
+    font-size: 50px;
+}
+
+.yellowtext {
+    color:#BCAF00
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #BCAF00;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+.footer:hover {
+    color:black;
+    cursor:pointer;
 }
