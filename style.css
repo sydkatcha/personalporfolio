@@ -13,10 +13,27 @@ a {
     color: inherit;
 }
 
+.siteheader {
+    color:white;
+    background-color:black;
+    font-size: 40px;
+    text-align: left;
+    overflow: scroll;
+    padding: 0px 0px;
+    border: 0px;
+    border-style: solid;
+    border-color: ;
+    border-radius: 0px;
+    margin: 0px;
+    font-family: "open sans";
+    margin: 10px;
+}
+
 .navbar {
     color:white;
     background-color:black;
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: bold;
     text-align: center;
     overflow: scroll;
     padding: 0px 0px;
@@ -26,6 +43,7 @@ a {
     border-radius: 0px;
     margin: 0px;
     font-family: "open sans";
+    margin: 10px;
 }
 
 .navbar:hover {
@@ -43,21 +61,29 @@ a {
     color: white;
     background-color: black;
     font-size: 40px;
+    font-weight: bold;
     width: 20rem;
-    height: 8rem;
+    height: 4rem;
     text-align: center;
     border: 5px;
     border-style:solid;
     border-color: white;
     border-radius: 20rem;
-    padding: 0rem;
-    margin: 4rem;
+    padding: 10px;
+    margin: 0rem;
 }
+
 .calltoaction:hover {
     cursor: pointer;
     background-color: white;
     color: black;
     border-color: white;
+}
+
+.calltoaction:active {
+    background-color:#BCAF00;
+    color:black;
+    border-color:#BCAF00
 }
 
 .blurb {
@@ -71,12 +97,14 @@ a {
     color: white;
     background-color: black;
     font-size: 30px;
+    margin: 16px 0px
 }
 
 .quote {
     color: white;
     background-color: black;
     font-size: 50px;
+    margin: 4rem 0rem
 }
 
 .yellowtext {
@@ -89,7 +117,7 @@ a {
     background-color: #BCAF00;
     font-size: 20px;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     border: 0px;
 
 }
@@ -97,4 +125,17 @@ a {
 .footer:hover {
     color:black;
     cursor:pointer;
+}
+
+.email {
+    color: black;
+    background-color:aquamarine;
+    text-align: center;
+    padding: 2rem;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.email:hover {
+    background-color:#BCAF00;
+    color: white;
 }
