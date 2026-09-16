@@ -26,7 +26,12 @@ a {
     border-radius: 0px;
     margin: 0px;
     font-family: "open sans";
-    margin: 10px;
+    margin: 0px;
+    letter-spacing: auto;
+}
+
+.siteheader:hover {
+    
 }
 
 .navbar {
@@ -51,10 +56,42 @@ a {
     cursor: pointer;
 }
 
+baaaaaa
+.image-text {
+    background-image: url( //assets/"image_collage4.jpg");
+    background-size: cover;
+    background-position:center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 80px;
+
+}
+
 .motto {
     color: white;
     background-color: black;
     font-size: 80px;
+}
+
+.mottofun1:hover {
+    color:#BCAF00;
+    cursor: crosshair;
+}
+
+.mottofun2:hover {
+    color:blueviolet;
+    cursor: crosshair;
+}
+
+.mottofun3:hover {
+    color:aquamarine;
+    cursor: crosshair;
+}
+
+.mottofun4:hover {
+    color:crimson;
+    cursor: crosshair;
 }
 
 .calltoaction {
@@ -100,11 +137,16 @@ a {
     margin: 16px 0px
 }
 
+.fullwidthimage {
+    max-width: 100%;
+}
+
 .quote {
     color: white;
     background-color: black;
     font-size: 50px;
-    margin: 4rem 0rem
+    margin: 10rem 0rem;
+    text-align: center;
 }
 
 .yellowtext {
@@ -129,13 +171,30 @@ a {
 
 .email {
     color: black;
-    background-color:aquamarine;
+    background-color:#BCAF00;
     text-align: center;
     padding: 2rem;
     font-weight: bold;
-    border-radius: 40px;
 }
 .email:hover {
-    background-color:#BCAF00;
+    background-color:aquamarine;
     color: white;
+}
+
+.linkedin {
+    max-width: 25%;
+}
+
+.portrait {
+    max-width:25%;
+    max-height:fit-content;
+    border-style:solid;
+    border:4px;
+    border-color:#BCAF00;
+    border-radius:;
+}
+
+.images {
+    max-width:100%;
+    max-height:fit-content;
 }
