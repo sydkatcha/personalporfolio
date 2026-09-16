@@ -170,15 +170,16 @@ baaaaaa
 }
 
 .email {
-    color: black;
+    color: white;
     background-color:#BCAF00;
     text-align: center;
     padding: 2rem;
-    font-weight: bold;
+    font-weight: ;
+    font-size: 20px;
 }
 .email:hover {
-    background-color:aquamarine;
-    color: white;
+    background-color: ;
+    color: orangered;
 }
 
 .linkedin {
