@@ -55,6 +55,10 @@ a {
     cursor: pointer;
 }
 
+.navbar:active {
+    color:orangered;
+}
+
 baaaaaa
 .image-text {
     background-image: url( //assets/"image_collage4.jpg");
@@ -119,9 +123,9 @@ baaaaaa
 }
 
 .calltoaction:active {
-    background-color:#BCAF00;
+    background-color:orangered;
     color:black;
-    border-color:#BCAF00
+    border-color:orangered
 }
 
 .blurb {
