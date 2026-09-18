@@ -210,3 +210,13 @@ baaaaaa
     max-width: 50%;
     margin: 160px
 }
+
+.threequarterwidthimage {
+    max-width: 75%;
+    max-height: auto;
+}
+
+.halfwidthimage {
+    max-width: 50%;
+    max-height: auto;
+}
