@@ -133,14 +133,15 @@ baaaaaa
     background-color: black;
     font-size: 16px;
     width: 50%;
-    margin: 20px 0px 40px 120px;
+    margin: 20px 0px 60px 120px;
 
 }
 .blurbtitle {
     color: white;
     background-color: black;
     font-size: 30px;
-    margin: 40px 0px 0px 120px;
+    margin: 30px 0px 0px 120px;
+    font-weight: bold;
 }
 
 .fullwidthimage {
@@ -208,15 +209,21 @@ baaaaaa
 
 .albumimage {
     max-width: 50%;
-    margin: 160px
+    margin: 0px 0px 0px 120px
 }
 
 .threequarterwidthimage {
     max-width: 75%;
     max-height: auto;
+    margin: 60px 0px 40px 120px;
 }
 
 .halfwidthimage {
     max-width: 50%;
     max-height: auto;
+}
+
+.smallimage {
+    max-width: 20%;
+
 }
