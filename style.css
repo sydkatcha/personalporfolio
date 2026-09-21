@@ -253,3 +253,8 @@ baaaaaa
 .aboutimage {
     max-width: 500px;
 }
+
+.fableimage {
+    max-width: 80%;
+    margin: 0px 0px 25px 120px;
+}
