@@ -16,36 +16,12 @@ a {
 .logo {
     max-width: 15%;
     margin: 40px 0px 0px 80px;
-    position: fixed;
+    position: ;
 }
 
 .logofooter {
     max-width: 15%;
     margin: px 0px 0px px
-}
-
-.logo:hover {
-
-}
-
-.siteheader {
-    color:white;
-    background-color:black;
-    font-size: 40px;
-    text-align: left;
-    overflow: scroll;
-    padding: 0px 0px;
-    border: 0px;
-    border-style: solid;
-    border-color: ;
-    border-radius: 0px;
-    margin: 40px 0px 0px 40px;
-    font-family: "open sans";
-    letter-spacing: auto;
-}
-
-.siteheader:hover {
-    
 }
 
 .navbar {
@@ -74,18 +50,6 @@ a {
     color:orangered;
 }
 
-baaaaaa
-.image-text {
-    background-image: url( //assets/"image_collage4.jpg");
-    background-size: cover;
-    background-position:center;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-size: 80px;
-
-}
-
 .motto {
     color: white;
     background-color: black;
@@ -96,21 +60,6 @@ baaaaaa
 
 .mottofun1:hover {
     color:#BCAF00;
-    cursor: crosshair;
-}
-
-.mottofun2:hover {
-    color:blueviolet;
-    cursor: crosshair;
-}
-
-.mottofun3:hover {
-    color:aquamarine;
-    cursor: crosshair;
-}
-
-.mottofun4:hover {
-    color:crimson;
     cursor: crosshair;
 }
 
@@ -241,13 +190,14 @@ baaaaaa
 }
 
 .funcategories {
-    transform: rotate(0deg);
+    transform: rotate(-90deg);
     display: inline-block;
     margin: 0px 0px 0px 0px;
     max-width:300px;
-    position: fixed;
+    position: ;
     top: 145px;
     left: 80px;
+
 }
 
 .aboutimage {
@@ -255,6 +205,38 @@ baaaaaa
 }
 
 .fableimage {
-    max-width: 80%;
-    margin: 0px 0px 25px 120px;
+    max-width: 50%;
+    margin: 0px 0px 25px 800px;
+}
+
+.fable {
+    background-color: #566765;
+    padding: 0px 0px 0px 0px;
+}
+
+.fableblurb {
+    color: white;
+    background-color: #566765;
+    font-size: 16px;
+    width: 50%;
+    margin: 20px 0px 0px 120px;
+    padding: 0px 0px 60px 0px
+}
+
+.fableblurbtitle {
+    color: white;
+    background-color: #566765;
+    font-size: 30px;
+    margin: 30px 0px 0px 120px;
+    font-weight: bold;
+}
+
+.fablegradient {
+    max-width: 100%
+
+}
+
+.footergradient {
+    max-width: 100%;
+    margin: 0px;
 }
