@@ -15,7 +15,8 @@ a {
 
 .logo {
     max-width: 15%;
-    margin: 40px 0px 0px 80px
+    margin: 40px 0px 0px 80px;
+    position: fixed;
 }
 
 .logofooter {
@@ -182,6 +183,7 @@ baaaaaa
     margin: 0px;
     padding: 10px 0px;
     border: 0px;
+    font-weight: bold;
 }
 
 .footer:hover {
@@ -214,16 +216,12 @@ baaaaaa
     border:4px;
     border-color:#BCAF00;
     border-radius:;
-}
-
-.images {
-    max-width:;
-    max-height:200px;
+    margin: 0px 0px 0px 120px;
 }
 
 .albumimage {
     max-width: 50%;
-    margin: 0px 0px 0px 120px
+    margin: 0px 0px 0px 120px;
 }
 
 .threequarterwidthimage {
@@ -242,10 +240,16 @@ baaaaaa
 
 }
 
-.rotatetext {
-    transform: rotate(90deg);
+.funcategories {
+    transform: rotate(0deg);
     display: inline-block;
-    color: white;
-    font-size: 60px;
-    margin: 0px 0px 0px 90rem;
+    margin: 0px 0px 0px 0px;
+    max-width:300px;
+    position: fixed;
+    top: 145px;
+    left: 80px;
+}
+
+.aboutimage {
+    max-width: 500px;
 }
