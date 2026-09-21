@@ -206,7 +206,7 @@ a {
 
 .fableimage {
     max-width: 50%;
-    margin: 0px 0px 25px 800px;
+    margin: 0px 0px 25px 120px;
 }
 
 .fable {
@@ -239,4 +239,24 @@ a {
 .footergradient {
     max-width: 100%;
     margin: 0px;
+}
+
+.drawingimage {
+    max-height: 600px;
+}
+
+.drawingimagediv {
+    margin: 0px 0px 0px 120px;
+}
+
+.origamipainting {
+    margin: 0px 0px 0px 120px;
+}
+
+.collage {
+    max-height: 500px;
+}
+
+.collagediv {
+    margin: 0px 0px 0px 120px;
 }
