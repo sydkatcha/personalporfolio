@@ -241,3 +241,11 @@ baaaaaa
     max-width: 20%;
 
 }
+
+.rotatetext {
+    transform: rotate(90deg);
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    margin: 0px 0px 0px 90rem;
+}
