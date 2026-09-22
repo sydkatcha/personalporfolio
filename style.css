@@ -13,6 +13,10 @@ a {
     color: inherit;
 }
 
+:root {
+    --chartreuse: #BCAF00;
+}
+
 .logo {
     max-width: 15%;
     margin: 40px 0px 0px 80px;
@@ -21,7 +25,7 @@ a {
 
 .logofooter {
     max-width: 15%;
-    margin: px 0px 0px px
+    margin: 0px 0px 0px 0px
 }
 
 .navbar {
@@ -29,7 +33,7 @@ a {
     background-color:black;
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
     overflow: scroll;
     padding: 0px 0px;
     border: 0px;
@@ -38,11 +42,11 @@ a {
     border-radius: 0px;
     margin: 0px;
     font-family: "open sans";
-    margin: 10px;
+    margin: 0px 120px 0px 0px;
 }
 
 .navbar:hover {
-    color:#BCAF00;
+    color: var(--chartreuse);
     cursor: pointer;
 }
 
@@ -53,8 +57,8 @@ a {
 .motto {
     color: white;
     background-color: black;
-    font-size: 120px;
-    font-weight:bold;
+    font-size: 100px;
+    font-weight:;
     margin: 60px 0px 40px 120px;
 }
 
@@ -67,11 +71,11 @@ a {
     color: white;
     background-color: black;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: ;
     width: 20rem;
     height: 4rem;
     text-align: center;
-    border: 5px;
+    border: 2px;
     border-style:solid;
     border-color: white;
     border-radius: 20rem;
@@ -81,9 +85,9 @@ a {
 
 .calltoaction:hover {
     cursor: pointer;
-    background-color: white;
+    background-color: #BCAF00;
     color: black;
-    border-color: white;
+    border-color: var(--chartreuse);
 }
 
 .calltoaction:active {
@@ -101,7 +105,7 @@ a {
 
 }
 .blurbtitle {
-    color: white;
+    color: var(--chartreuse);
     background-color: black;
     font-size: 30px;
     margin: 30px 0px 0px 120px;
@@ -210,13 +214,13 @@ a {
 }
 
 .fable {
-    background-color: #566765;
+    background-color: black;
     padding: 0px 0px 0px 0px;
 }
 
 .fableblurb {
     color: white;
-    background-color: #566765;
+    background-color: black;
     font-size: 16px;
     width: 50%;
     margin: 20px 0px 0px 120px;
@@ -224,8 +228,8 @@ a {
 }
 
 .fableblurbtitle {
-    color: white;
-    background-color: #566765;
+    color: var(--chartreuse);
+    background-color: black;
     font-size: 30px;
     margin: 30px 0px 0px 120px;
     font-weight: bold;
@@ -259,4 +263,20 @@ a {
 
 .collagediv {
     margin: 0px 0px 0px 120px;
+}
+
+.contacticons {
+    margin: 0px 0px 0px 638px;
+}
+
+.gap {
+    margin: 120px 0px;
+}
+
+.aboutimagediv {
+    margin: 0px 0px 0px 120px;
+}
+
+.aboutimage {
+    max-height: 300px;
 }
