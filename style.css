@@ -68,7 +68,7 @@ a {
 }
 
 .calltoaction {
-    color: white;
+    color: var(--chartreuse);
     background-color: black;
     font-size: 40px;
     font-weight: ;
@@ -77,7 +77,7 @@ a {
     text-align: center;
     border: 2px;
     border-style:solid;
-    border-color: white;
+    border-color: var(--chartreuse);
     border-radius: 20rem;
     padding: 0px 0px 0px 0px;
     margin: 20px 0px 0px 120px;
@@ -279,4 +279,32 @@ a {
 
 .aboutimage {
     max-height: 300px;
+}
+
+.bananasdiv {
+    margin: 0px 0px 0px 120px  
+}
+
+.bananas {
+    max-height: 600px;
+}
+
+.possumicon {
+    max-height: 180px;
+}
+
+.possum {
+    max-height: 500px;
+}
+
+.possumdiv {
+    margin: 0px 0px 0px 120px;
+}
+
+.theater {
+    max-height: 500px;
+}
+
+.theaterdiv {
+    margin: 0px 0px 0px 120px;
 }
