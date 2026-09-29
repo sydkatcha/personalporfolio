@@ -19,6 +19,7 @@ a {
 
 .logo {
     max-width: 15%;
+    margin: 40px;
 }
 
 .logofooter {
@@ -27,17 +28,12 @@ a {
 }
 
 .navbar {
-    color:white;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "open sans";
-    text-align: right;
     display: flex;
     flex-direction: row;
     justify-content: right;
     align-items: center;
     gap: 12px;
-    min-width: 500px;
+    min-width: 800px;
 }
 
 .navbardiv {
@@ -46,14 +42,22 @@ a {
     justify-content: right;
     align-items: center;
     height: 100px;
+    margin: 0px 80px 0px 0px;
 }
 
-.navbar:hover {
+.navbarbutton {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "open sans";
+    padding: 40px;
+}
+.navbarbutton:hover {
     color: var(--chartreuse);
     cursor: pointer;
 }
 
-.navbar:active {
+.navbarbutton:active {
     color:orangered;
 }
 
@@ -70,17 +74,22 @@ a {
     cursor: crosshair;
 }
 
+.meltingbackground {
+    background: url('/assets/melting.png');
+    padding: 200px 0px;
+}
+
 .calltoaction {
-    color: var(--chartreuse);
+    color: white;
     background-color: ;
     font-size: 40px;
-    font-weight: ;
+    font-weight: medium ;
     width: 20rem;
     height: 4rem;
     text-align: center;
     border: 2px;
     border-style:solid;
-    border-color: var(--chartreuse);
+    border-color: white;
     border-radius: 20rem;
     padding: 0px 0px 0px 0px;
     margin: 20px 0px 0px 120px;
@@ -97,11 +106,6 @@ a {
     background-color:orangered;
     color:black;
     border-color:orangered
-}
-
-.meltingbackground {
-    background: url('/assets/melting.jpg');
-    padding: 130px 0px;
 }
 
 .blurb {
@@ -194,11 +198,6 @@ a {
 .portrait {
     max-width:25%;
     max-height:fit-content;
-    border-style:solid;
-    border:4px;
-    border-color:#BCAF00;
-    border-radius:;
-    margin: 0px 0px 0px 120px;
 }
 
 .albumimage {
@@ -224,11 +223,7 @@ a {
 
 .funcategories {
     transform: rotate(-90deg);
-    display: inline-block;
-    margin: 0px 0px 0px 0px;
     max-width:300px;
-    top: 145px;
-    left: 80px;
 
 }
 
@@ -338,4 +333,11 @@ a {
 }
 .theaterdiv {
     margin: 0px 0px 0px 120px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 0px 0px 60px 0px;
 }
