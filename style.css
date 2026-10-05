@@ -17,23 +17,18 @@ a {
     --chartreuse: #BCAF00;
 }
 
-.logo {
-    max-width: 15%;
-    margin: 40px;
+/* image sizes */
+.threequarterwidthimage {
+    max-width: 75%;
+    max-height: auto;
+    margin: 0px 0px 0px 120px;
 }
-
-.logofooter {
-    max-width: 15%;
-    margin: 0px 0px 0px 0px
+.halfwidthimage {
+    max-width: 50%;
+    max-height: auto;
 }
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
-    gap: 12px;
-    min-width: 800px;
+.smallimage {
+    max-width: 20%;
 }
 
 .navbardiv {
@@ -43,22 +38,48 @@ a {
     align-items: center;
     height: 100px;
     margin: 0px 80px 0px 0px;
-}
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        gap: 12px;
+        min-width: 800px;
+    }
+    .logo {
+        max-width: 15%;
+        margin: 40px;
+    }
+    .navbarbutton {
+        color:white;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "open sans";
+        padding: 40px;
+    }
+        .navbarbutton:hover {
+            color: var(--chartreuse);
+            cursor: pointer;
+        }
+        .navbarbutton:active {
+            color:orangered;
+        }
+    .funcategoriesdiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+        .funcategories {
+            max-width: 50%;
+        }
 
-.navbarbutton {
-    color:white;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "open sans";
-    padding: 40px;
-}
-.navbarbutton:hover {
-    color: var(--chartreuse);
-    cursor: pointer;
-}
+/* HOME page stuff below*/
 
-.navbarbutton:active {
-    color:orangered;
+.meltingbackground {
+    background: url('/assets/melting.png');
+    padding: 200px 0px;
 }
 
 .motto {
@@ -68,16 +89,10 @@ a {
     font-weight:;
     margin: 60px 0px 40px 120px;
 }
-
-.mottofun1:hover {
-    color:#BCAF00;
-    cursor: crosshair;
-}
-
-.meltingbackground {
-    background: url('/assets/melting.png');
-    padding: 200px 0px;
-}
+    .mottofun1:hover {
+        color:#BCAF00;
+        cursor: crosshair;
+    }
 
 .calltoaction {
     color: white;
@@ -94,23 +109,20 @@ a {
     padding: 0px 0px 0px 0px;
     margin: 20px 0px 0px 120px;
 }
-
-.calltoaction:hover {
-    cursor: pointer;
-    background-color: #BCAF00;
-    color: black;
-    border-color: var(--chartreuse);
-}
-
-.calltoaction:active {
-    background-color:orangered;
-    color:black;
-    border-color:orangered
-}
+    .calltoaction:hover {
+        cursor: pointer;
+        background-color: #BCAF00;
+        color: black;
+        border-color: var(--chartreuse);
+    }
+    .calltoaction:active {
+        background-color:orangered;
+        color:black;
+        border-color:orangered
+    }
 
 .blurb {
     color: white;
-    background-color: black;
     font-size: 16px;
 
 }
@@ -125,61 +137,19 @@ a {
     flex-direction: column;
     gap: .75rem;
 }
-
-.blurbchild {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-@media screen and (min-width:320px) {
-    .blurbcontainer {
+    .blurbchild {
         display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        margin: 60px 0px 60px 0px;
+        flex-direction: column;
+        gap: 8px;
     }
-}
-
-.waterdiv {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 60px;
-    margin: 60px 60px 60px 80px;
-}
-
-.watertext {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.waterimage {
-    max-width: 900px;
-}
-
-.algernondiv {
-    display: flex;
-    flex-direction: row;
-    margin: 60px 60px 60px 80px;
-    gap: 60px;
-    align-items: center;
-}
-
-.algernontext {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.algernonimage {
-    max-width: 900px;
-}
-
-.fullwidthimage {
-    max-width: 100%;
-}
+    @media screen and (min-width:320px) {
+        .blurbcontainer {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            margin: 60px 0px 60px 0px;
+        }
+    }
 
 .quote {
     color: white;
@@ -189,10 +159,10 @@ a {
     text-align: center;
 }
 
-.yellowtext {
-    color:#BCAF00
-}
-
+.logofooter {
+        max-width: 15%;
+        margin: 0px 0px 0px 0px
+    }
 .footer {
     text-align: center;
     color: white;
@@ -200,43 +170,79 @@ a {
     padding: 10px 0px;
     font-weight: bold;
 }
-
-.footer:hover {
-    color: var(--chartreuse);
-    cursor:pointer;
-}
-
-.footer:active {
-    color: orangered;
-}
-.email {
-    color: white;
-    background-color:#BCAF00;
-    text-align: center;
-    padding: 2rem;
-    font-weight: ;
-    font-size: 20px;
-}
-.email:hover {
-    background-color: ;
-    color: orangered;
-}
+    .footer:hover {
+        color: var(--chartreuse);
+        cursor:pointer;
+    }
+    .footer:active {
+        color: orangered;
+    }
 
 .linkedin {
     max-width: 10%;
     padding:20px 20px;
 }
 
-.portrait {
-    max-width:25%;
-    max-height:fit-content;
-}
+/* ABOUT */
 
-.nexttonormaltext {
+.aboutdiv {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px 80px 0px 80px;
     gap: 12px;
 }
+    .aboutimage {
+        max-height: 300px;
+    }
+
+    .abouttext {
+        display: flex;
+        flex-direction: column;
+        align-items
+    }
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 0px 0px 60px 80px;
+}
+
+/* COVER ART */
+
+.waterdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin: 60px 60px 60px 80px;
+}
+    .watertext {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .waterimage {
+        max-width: 900px;
+    }
+
+.algernondiv {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 60px 60px 80px;
+    gap: 60px;
+    align-items: center;
+}
+    .algernontext {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .algernonimage {
+        max-width: 900px;
+    }
 
 .nexttonormaldiv {
     display: flex;
@@ -245,54 +251,47 @@ a {
     gap: 60px;
     margin: 60px 60px 60px 80px;
 }
+    .nexttonormaltext {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
 
-.nexttonormalimage {
-    max-width: 900px;
+    .nexttonormalimage {
+        max-width: 900px;
+    }
+
+    .fullwidthimage {
+    max-width: 100%;
 }
 
+/* LAYOUT DESIGN */
 
+.menudiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+    .menutext {
+        display: flex;
+    }
 
-.threequarterwidthimage {
-    max-width: 75%;
-    max-height: auto;
+.possumdiv {
     margin: 0px 0px 0px 120px;
 }
+    .possumicon {
+        max-height: 180px;
+    }
+    .possum {
+        max-height: 500px;
+    }
 
-.halfwidthimage {
-    max-width: 50%;
-    max-height: auto;
+.bananasdiv {
+    margin: 0px 0px 0px 120px  
 }
-
-.smallimage {
-    max-width: 20%;
-
-}
-
-.funcategoriesdiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
-}
-
-.funcategories {
-    max-width: 50%;
-}
-
-
-.aboutimage {
-    max-height: 300px;
-}
-
-.aboutimagediv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 0px 80px 0px 80px;
-    gap: 12px;
-
-}
+    .bananas {
+        max-height: 600px;
+    }
 
 .fableimage {
     max-width: 50%;
@@ -321,13 +320,24 @@ a {
     font-weight: bold;
 }
 
-.drawingimage {
-    max-height: 600px;
+/* ARTWORK */
+
+.theaterdiv {
+    margin: 0px 0px 0px 120px;
 }
+    .theater {
+        max-height: 500px;
+    }
+    .theaterpres {
+    max-width: 500px;
+    }
 
 .drawingimagediv {
     margin: 0px 0px 0px 120px;
 }
+    .drawingimage {
+        max-height: 600px;
+    }
 
 .origamipainting {
     margin: 0px 0px 0px 120px;
@@ -347,42 +357,4 @@ a {
 
 .gap {
     margin: 120px 0px;
-}
-
-.bananasdiv {
-    margin: 0px 0px 0px 120px  
-}
-
-.bananas {
-    max-height: 600px;
-}
-
-.possumicon {
-    max-height: 180px;
-}
-
-.possum {
-    max-height: 500px;
-}
-
-.possumdiv {
-    margin: 0px 0px 0px 120px;
-}
-
-.theater {
-    max-height: 500px;
-}
-
-.theaterpres {
-    max-width: 500px;
-}
-.theaterdiv {
-    margin: 0px 0px 0px 120px;
-}
-
-.about {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    margin: 0px 0px 60px 80px;
 }
