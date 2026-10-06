@@ -1,3 +1,5 @@
+/* GENERAL */
+
 body {
     font-family: "open sans";
     background-color: black;
@@ -17,19 +19,34 @@ a {
     --chartreuse: #BCAF00;
 }
 
-/* image sizes */
 .threequarterwidthimage {
     max-width: 75%;
     max-height: auto;
     margin: 0px 0px 0px 120px;
 }
+
 .halfwidthimage {
     max-width: 50%;
     max-height: auto;
 }
+
 .smallimage {
     max-width: 20%;
 }
+
+.blurb {
+    color: white;
+    font-size: 16px;
+
+}
+
+.blurbtitle {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* NAVIGATION BAR */
 
 .navbardiv {
     display: flex;
@@ -121,16 +138,6 @@ a {
         border-color:orangered
     }
 
-.blurb {
-    color: white;
-    font-size: 16px;
-
-}
-.blurbtitle {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-}
 
 .blurbcontainer {
     display: flex;
@@ -140,16 +147,22 @@ a {
     .blurbchild {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 20px;
     }
     @media screen and (min-width:320px) {
         .blurbcontainer {
             display: flex;
             flex-direction: row;
-            gap: 1rem;
-            margin: 60px 0px 60px 0px;
+            gap: 4rem;
+            margin: 100px 120px;
         }
     }
+
+.homeline {
+    border: none;
+    background-color: #BCAF00;
+    width: 6px;
+}
 
 .quote {
     color: white;
@@ -159,29 +172,43 @@ a {
     text-align: center;
 }
 
-.logofooter {
-        max-width: 15%;
-        margin: 0px 0px 0px 0px
-    }
-.footer {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    padding: 10px 0px;
-    font-weight: bold;
+.footerdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-    .footer:hover {
-        color: var(--chartreuse);
-        cursor:pointer;
-    }
-    .footer:active {
-        color: orangered;
-    }
 
-.linkedin {
-    max-width: 10%;
-    padding:20px 20px;
-}
+    .logofooter {
+            max-width: 15%;
+            margin: 0px 0px 0px 0px
+    }
+        
+    .footer {
+        color: white;
+        font-size: 20px;
+        padding: 10px 0px;
+        font-weight: bold;
+    }
+        .footer:hover {
+            color: var(--chartreuse);
+            cursor:pointer;
+        }
+        .footer:active {
+            color: orangered;
+        }
+
+    .contacticonsdiv {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .contacticons {
+        max-width: 80px;
+        padding: 20px;
+    }
 
 /* ABOUT */
 
@@ -332,6 +359,13 @@ a {
     max-width: 500px;
     }
 
+.collagediv {
+    margin: 0px 0px 0px 120px;
+}
+    .collage {
+    max-height: 500px;
+    }
+
 .drawingimagediv {
     margin: 0px 0px 0px 120px;
 }
@@ -341,20 +375,4 @@ a {
 
 .origamipainting {
     margin: 0px 0px 0px 120px;
-}
-
-.collage {
-    max-height: 500px;
-}
-
-.collagediv {
-    margin: 0px 0px 0px 120px;
-}
-
-.contacticons {
-    margin: 0px 0px 0px 638px;
-}
-
-.gap {
-    margin: 120px 0px;
 }
