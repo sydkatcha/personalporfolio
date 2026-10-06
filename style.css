@@ -22,7 +22,6 @@ a {
 .threequarterwidthimage {
     max-width: 75%;
     max-height: auto;
-    margin: 0px 0px 0px 120px;
 }
 
 .halfwidthimage {
@@ -171,43 +170,48 @@ a {
     margin: 10rem 0rem;
     text-align: center;
 }
+    .yellowtext {
+        color:#BCAF00;
+    }
 
-.footerdiv {
+.footercontainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
-
-    .logofooter {
-            max-width: 15%;
-            margin: 0px 0px 0px 0px
+    .footerlogocontainer { /*WHAT THE HELL WHY CAN'T I CENTER THE LOGO. ADSKLGJALSDJGOARG */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
+        .footerlogo {
+            max-width: 10%;
+        }
         
-    .footer {
+    .footerchild {
         color: white;
         font-size: 20px;
-        padding: 10px 0px;
         font-weight: bold;
     }
-        .footer:hover {
+        .footerchild:hover {
             color: var(--chartreuse);
             cursor:pointer;
         }
-        .footer:active {
+        .footerchild:active {
             color: orangered;
         }
 
-    .contacticonsdiv {
+    .contacticons-container {
         display:flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
     }
-    .contacticons {
-        max-width: 80px;
-        padding: 20px;
+    .contacticons-child {
+        max-width: 50px;
     }
 
 /* ABOUT */
@@ -294,13 +298,15 @@ a {
 
 /* LAYOUT DESIGN */
 
-.menudiv {
+.menucontainer {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: start;
+    align-items: center;
+    max-width: 80%;
+    align-content: center;
 }
     .menutext {
-        display: flex;
     }
 
 .possumdiv {
