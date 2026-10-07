@@ -248,12 +248,12 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 60px;
-    margin: 60px 60px 60px 80px;
+    margin: 6.25%; /* 25% divided by 4 sides*/
 }
     .watertext {
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 15px;
     }
     .waterimage {
         max-width: 900px;
@@ -262,14 +262,14 @@ a {
 .algernondiv {
     display: flex;
     flex-direction: row;
-    margin: 60px 60px 60px 80px;
+    margin: 6.25%;
     gap: 60px;
     align-items: center;
 }
     .algernontext {
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 15px;
     }
     .algernonimage {
         max-width: 900px;
@@ -280,12 +280,12 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 60px;
-    margin: 60px 60px 60px 80px;
+    margin: 6.25%;
 }
     .nexttonormaltext {
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 15px;
     }
 
     .nexttonormalimage {
@@ -303,10 +303,48 @@ a {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    max-width: 80%;
     align-content: center;
+    gap: 20px;
 }
+    .menuimagecontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        align-content: center;
+    }
     .menutext {
+        margin: 0px 215px 0px 800px;
+        max-width: ;
+        text-align: right;
+    }
+
+.bananadiv {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 215px;
+}
+    .banana-row1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+        .bananatext{
+            display:flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 15px;
+            margin: 0px 15px 0px 0px;
+        }
+
+    .banana-row2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .bananaimage {
+        max-height: 500px;
     }
 
 .possumdiv {
@@ -317,13 +355,6 @@ a {
     }
     .possum {
         max-height: 500px;
-    }
-
-.bananasdiv {
-    margin: 0px 0px 0px 120px  
-}
-    .bananas {
-        max-height: 600px;
     }
 
 .fableimage {
